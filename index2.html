@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Conversor Temperatura</h2>
+       <form action="">
+   
+        <label for="celsius">Temperatura:</label>
+        <input type="number" id="valor"><br><br>
+        <input type="button" value="Converter-Celsius" onclick= "displayResult()">
+        <input type="button" value="Converter-Fahrenheit" onclick= "displayResult2()">
+        <button type="reset" onclick="clearResult()">Limpar</button>
+    </form>
+        <div class="resultad">
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
